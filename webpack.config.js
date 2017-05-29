@@ -10,6 +10,7 @@ module.exports = {
             loader: 'babel-loader'
         },
         {
+<<<<<<< HEAD
             test: /\.css$/,
             loader: 'style-loader'
         }, 
@@ -21,6 +22,18 @@ module.exports = {
                 localIdentName: '[name]__[local]___[hash:base64:5]'
             }
         }]
+=======
+  test: /\.css$/,
+  loader: 'style-loader'
+}, {
+  test: /\.css$/,
+  loader: 'css-loader',
+  query: {
+    modules: true,
+    localIdentName: '[name]__[local]___[hash:base64:5]'
+  }
+}]
+>>>>>>> 252ffe88fc2476df749ce8f00e025ffbc12ffbaf
     },
     output: {
         filename: 'transformed.js',
