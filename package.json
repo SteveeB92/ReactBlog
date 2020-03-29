@@ -13,15 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.7",
-<<<<<<< HEAD
-    "css-loader": "^0.27.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "style-loader": "^0.16.1"
-=======
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
->>>>>>> 252ffe88fc2476df749ce8f00e025ffbc12ffbaf
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
