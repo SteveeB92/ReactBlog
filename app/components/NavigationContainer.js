@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
-import NavigationContainerStyle from './css/NavigationContainer.css'
+import ContainerStyle from './css/Container.css'
 
 export default class NavigationContainer extends React.Component {
     constructor(props) {
@@ -9,7 +9,7 @@ export default class NavigationContainer extends React.Component {
  
     render() {
         return (
-            <div className={NavigationContainerStyle.container}>
+            <div className={ContainerStyle.container}>
                 <Navigation />
             </div>
         );
